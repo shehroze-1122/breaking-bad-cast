@@ -2,6 +2,7 @@ import {React, useState, useEffect} from 'react';
 import CharacterList from '../components/CharacterList';
 import Header from '../components/Header'
 import Search from '../components/Search';
+// import VoiceSearch from '../components/VoiceSearch';
 import './App.css';
 
 
@@ -11,6 +12,7 @@ const App =()=> {
   const [isPending, setisPending] = useState(true);
   const [searchField, setSearchField] = useState('');
   const [ifFailed, setIfFailed] = useState(false);
+  const [isListening, setIsListening] = useState(false);
 
 
   const fetchData = async ()=>{
@@ -41,16 +43,33 @@ const App =()=> {
   const handleVoiceResults = (transcript)=>{
     setSearchField(transcript);
   }
+  const handleListening =()=>{
+    setIsListening(prevState => !prevState)
+  }
+  if ('webkitSpeechRecognition' in window){
+    const VoiceSearch = require('../components/VoiceSearch').default;
+    return (
+      <div className="container">
+          <Header/>
+          <Search getSearchValueByTyping={getSearchValueByTyping} handleListening={handleListening} isListening={isListening}/>
+          <VoiceSearch handleVoiceResults={handleVoiceResults} isListening={isListening} setIsListening={setIsListening}/>
+          <CharacterList characters ={filteredCharacters} isPending={isPending} ifFailed={ifFailed}/>
+      </div>
+    );
+  }
+  else{
+    return(
+      <div className="container">
+          <Header/>
+          <Search getSearchValueByTyping={getSearchValueByTyping} handleListening={handleListening} isListening={isListening}/>
+          <CharacterList characters ={filteredCharacters} isPending={isPending} ifFailed={ifFailed}/>
+      </div>
+    );
+
+  }
 
 
-  return (
-    <div className="container">
-      <Header/>
-      <Search getSearchValueByTyping={getSearchValueByTyping} handleVoiceResults={handleVoiceResults}/>
-      <CharacterList characters ={filteredCharacters} isPending={isPending} ifFailed={ifFailed}/>
-      
-  </div>
-  );
+  
 }
 
 export default App;
