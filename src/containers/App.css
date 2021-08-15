@@ -1,20 +1,59 @@
+/* All components css is included here  */
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
   }
-.header{
+/* ****************************************** HEADER ************************************************************ */
+  .header{
     margin: 20px;
     height: 150px;
 }
+
+/* ********************************************* SEARCH ************************************************************* */
+ .searchbox p{
+    display: block;
+    color: #fff;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 10px 0px;
+  }
+
 .search-input{
     padding: 25px 0px;
+    display: flex;
+    justify-content: center;
+}
+.search-output button{
+  padding: 5px 10px;
+  margin: 10px;
+  font-size: 1.2rem;
+}
+.search-input button{
+  color: #fff;
+  border: none;
+  background: rgb(15, 231, 123);
+  padding: 7px 25px;
+  border-radius: 0px 5px 5px 0px;
+}
+i{
+  color: black;
 }
 .search-input input{
     padding: 5px 10px;
-    width: 400px;
+    width: 500px;
     font-size: 1.1rem;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
 }
+.search-output-text{
+  padding: 5px 15px;
+  font-family: 'Courier New', Courier, monospace;
+  background: rgb(36, 36, 36);
+}
+
+/* *********************************************** CHARACTER'S CARD HOVER EFFECT ****************************** */
 
  /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
  .flip-card {
