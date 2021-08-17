@@ -2,7 +2,7 @@ import {React, useState, useEffect} from 'react';
 import CharacterList from '../components/CharacterList';
 import Header from '../components/Header'
 import Search from '../components/Search';
-// import VoiceSearch from '../components/VoiceSearch';
+import Scroll from '../components/Scroll';
 import './App.css';
 
 
@@ -50,10 +50,13 @@ const App =()=> {
     const VoiceSearch = require('../components/VoiceSearch').default;
     return (
       <div className="container">
+      
           <Header/>
           <Search getSearchValueByTyping={getSearchValueByTyping} handleListening={handleListening} isListening={isListening}/>
           <VoiceSearch handleVoiceResults={handleVoiceResults} isListening={isListening} setIsListening={setIsListening}/>
-          <CharacterList characters ={filteredCharacters} isPending={isPending} ifFailed={ifFailed}/>
+          <Scroll>
+            <CharacterList characters ={filteredCharacters} isPending={isPending} ifFailed={ifFailed}/>
+          </Scroll>
       </div>
     );
   }
@@ -62,7 +65,9 @@ const App =()=> {
       <div className="container">
           <Header/>
           <Search getSearchValueByTyping={getSearchValueByTyping} handleListening={handleListening} isListening={isListening}/>
-          <CharacterList characters ={filteredCharacters} isPending={isPending} ifFailed={ifFailed}/>
+          <Scroll>
+            <CharacterList characters ={filteredCharacters} isPending={isPending} ifFailed={ifFailed}/>
+          </Scroll>
       </div>
     );
 
