@@ -16,9 +16,16 @@ const Search = ({handleVoiceResults, isListening, setIsListening})=>{
 
     useEffect(() => {
         const handleListen = () => {
+            
 
             if (isListening) {
-              mic.start()
+              try{
+                mic.start()
+              }
+              catch{
+                mic.stop()
+              }
+              
               mic.onend = () => {
                 mic.start()
               }
@@ -28,7 +35,7 @@ const Search = ({handleVoiceResults, isListening, setIsListening})=>{
                 setvoiceSearchResults('');
               }
             }
-        
+            
             mic.onresult = event => {
               const transcript = Array.from(event.results)
                 .map(result => result[0])
@@ -37,7 +44,7 @@ const Search = ({handleVoiceResults, isListening, setIsListening})=>{
               setvoiceSearchResults(transcript)
             }
           }
-          mic.stop()
+          
         handleListen();
       }, [isListening])
     
