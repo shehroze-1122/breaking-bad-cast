@@ -7,7 +7,7 @@ const CharacterCard = ({img, name, nickname, birthday, status, occ, portrayed})=
             <div className="flip-card">
                 <div className="flip-card-inner">
                     <div className="flip-card-front">
-                        <img src={img} alt="Avatar" style={{height:'320px', width:'270px'}}/>
+                        <img src={img} alt="Avatar" style={{height:'320px', width:'260px'}}/>
                     </div>
                     <div className="flip-card-back">
                         <h2>{name}</h2>
