@@ -10,31 +10,31 @@ You can search characters by their name or nickname in the season by either typi
 
 ### You will see these visuals as you land on this app.
 
-![home screen]('./ReadmeImage/home.PNG)
+![home screen](https://github.com/shehroze-1122/breaking-bad-cast/blob/main/ReadmeImages/home.PNG)
 
 ### You can scroll down to see more than 100 charcters' cards.
 
-![characters' card]('./ReadmeImages/characters.PNG')
+![characters' card](https://github.com/shehroze-1122/breaking-bad-cast/blob/main/ReadmeImages/characters.PNG)
 
 ### Hover on any card and you would see their all the details dispayed by a flip of card.
 
-![character info]('./ReadmeImages/character-details.PNG')
+![character info](./ReadmeImages/character-details.PNG)
 
 ### Search any character by it's name or nickname used in the show and we will filter out as you type
 
-![type-search]('./ReadmeImages/type-search.PNG')
+![type-search](https://github.com/shehroze-1122/breaking-bad-cast/blob/main/ReadmeImages/type-search.PNG)
 
 ### Dont forget to try out voice search too. Hit the microphone and we can hear ya!
 
-![voice-search-enabled]('./ReadmeImages/voice-search-enable.PNG')
+![voice-search-enabled](https://github.com/shehroze-1122/breaking-bad-cast/blob/main/ReadmeImages/voice-search-enable.PNG)
 
 ### Speak any of characters' name or nickname and see it getting typed as you speak.
 
-![voice-search-speech]('./ReadmeImages/voice-search-speech.PNG')
+![voice-search-speech](https://github.com/shehroze-1122/breaking-bad-cast/blob/main/ReadmeImages/voice-search-speech.PNG)
 
 ### Satisfied by what we recognized you said? Hit Search and tada, here you have it! Else clear it and try again!
 
-![voice-search]('./ReadmeImages/voice-search.PNG')
+![voice-search](https://github.com/shehroze-1122/breaking-bad-cast/blob/main/ReadmeImages/voice-search.PNG)
 
 
 ### Making it your own
