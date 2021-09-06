@@ -18,7 +18,7 @@ You can search characters by their name or nickname in the season by either typi
 
 ### Hover on any card and you would see their all the details dispayed by a flip of card.
 
-![character info](./ReadmeImages/character-details.PNG)
+![character info](https://github.com/shehroze-1122/breaking-bad-cast/blob/main/ReadmeImages/charachter-details.PNG)
 
 ### Search any character by it's name or nickname used in the show and we will filter out as you type
 
