@@ -89,6 +89,7 @@ i{
     height: 100%;
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
+    overflow-y: auto;
   }
   
   /* Style the front side (fallback if image is missing) */
