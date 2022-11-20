@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/breaking-bad-cast/static/css/main.82d1fe7b.chunk.css",
-    "main.js": "/breaking-bad-cast/static/js/main.7079e1a1.chunk.js",
-    "main.js.map": "/breaking-bad-cast/static/js/main.7079e1a1.chunk.js.map",
-    "runtime-main.js": "/breaking-bad-cast/static/js/runtime-main.08df27d0.js",
-    "runtime-main.js.map": "/breaking-bad-cast/static/js/runtime-main.08df27d0.js.map",
-    "static/css/2.818011ed.chunk.css": "/breaking-bad-cast/static/css/2.818011ed.chunk.css",
-    "static/js/2.25c92468.chunk.js": "/breaking-bad-cast/static/js/2.25c92468.chunk.js",
-    "static/js/2.25c92468.chunk.js.map": "/breaking-bad-cast/static/js/2.25c92468.chunk.js.map",
+    "main.css": "/breaking-bad-cast/static/css/main.17643022.chunk.css",
+    "main.js": "/breaking-bad-cast/static/js/main.0a9e2029.chunk.js",
+    "main.js.map": "/breaking-bad-cast/static/js/main.0a9e2029.chunk.js.map",
+    "runtime-main.js": "/breaking-bad-cast/static/js/runtime-main.9172febb.js",
+    "runtime-main.js.map": "/breaking-bad-cast/static/js/runtime-main.9172febb.js.map",
+    "static/css/2.42d51ddf.chunk.css": "/breaking-bad-cast/static/css/2.42d51ddf.chunk.css",
+    "static/js/2.f798beee.chunk.js": "/breaking-bad-cast/static/js/2.f798beee.chunk.js",
+    "static/js/2.f798beee.chunk.js.map": "/breaking-bad-cast/static/js/2.f798beee.chunk.js.map",
     "index.html": "/breaking-bad-cast/index.html",
-    "static/css/2.818011ed.chunk.css.map": "/breaking-bad-cast/static/css/2.818011ed.chunk.css.map",
-    "static/css/main.82d1fe7b.chunk.css.map": "/breaking-bad-cast/static/css/main.82d1fe7b.chunk.css.map",
-    "static/js/2.25c92468.chunk.js.LICENSE.txt": "/breaking-bad-cast/static/js/2.25c92468.chunk.js.LICENSE.txt",
+    "static/css/2.42d51ddf.chunk.css.map": "/breaking-bad-cast/static/css/2.42d51ddf.chunk.css.map",
+    "static/css/main.17643022.chunk.css.map": "/breaking-bad-cast/static/css/main.17643022.chunk.css.map",
+    "static/js/2.f798beee.chunk.js.LICENSE.txt": "/breaking-bad-cast/static/js/2.f798beee.chunk.js.LICENSE.txt",
     "static/media/index.css": "/breaking-bad-cast/static/media/bg.085908ea.jpg",
     "static/media/logo.e6ecab44.png": "/breaking-bad-cast/static/media/logo.e6ecab44.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.08df27d0.js",
-    "static/css/2.818011ed.chunk.css",
-    "static/js/2.25c92468.chunk.js",
-    "static/css/main.82d1fe7b.chunk.css",
-    "static/js/main.7079e1a1.chunk.js"
+    "static/js/runtime-main.9172febb.js",
+    "static/css/2.42d51ddf.chunk.css",
+    "static/js/2.f798beee.chunk.js",
+    "static/css/main.17643022.chunk.css",
+    "static/js/main.0a9e2029.chunk.js"
   ]
 }
